@@ -81,13 +81,13 @@ public class DeleteFragment extends Fragment implements MainActivity.Interaction
 
     @Override
     public void removeAll() {
-
+        int size = 0;
         sqLiteDatabase = dataBaseHelper.getWritableDatabase();
         sqLiteDatabase.delete(DataBaseHelper.DATABASE_TABLE, null, null);
         if(!modelNotes.isEmpty())
-            adapter.notifyItemRangeRemoved(0, modelNotes.size());
-        while(modelNotes.isEmpty()) {
-            modelNotes.remove(modelNotes.size() - 1);
-        }
+            size  = modelNotes.size();
+        modelNotes.clear();
+        adapter.notifyItemRangeRemoved(0, size);
+
     }
 }
