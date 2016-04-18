@@ -66,11 +66,8 @@ public class DeleteFragmentAdapter extends RecyclerView.Adapter<DeleteFragmentAd
     public void onBindViewHolder(final DeleteNoteViewHolder holder, final int position) {
         holder.lastUpdateNoteDel.setText(modelNotes.get(position).getLastUpdateNote());
         holder.nameNoteDel.setText(modelNotes.get(position).getNameNote());
-
-        try {
-            holder.imgNoteDel.setImageBitmap(mainAdapter.scaleImg(position));
-        } catch (IOException ex) {
-
+        if(!modelNotes.get(position).getPathImg().isEmpty()) {
+            mainAdapter.fetchDrawableOnThread(holder.imgNoteDel, position);
         }
 /*
         holder.checkBox.setOnClickListener(new View.OnClickListener() {
