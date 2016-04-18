@@ -111,16 +111,43 @@ public class MainAdapter extends RecyclerView.Adapter<MainAdapter.NoteViewHolder
         noteViewHolder.lastUpdateNote.setText(modelNotes.get(i).getLastUpdateNote());
 
         if(!modelNotes.get(i).getPathImg().isEmpty()) {
-            try {
-                noteViewHolder.imgNote.setImageBitmap(scaleImg(i));
-            } catch (IOException ex) {
-
-            }
+            fetchDrawableOnThread(noteViewHolder, i);
         }
-
 
     }
 
+
+    public void fetchDrawableOnThread (final NoteViewHolder noteViewHolder, final int i) {
+        if (modelNotes.get(i).getBitmap() != null) {
+            noteViewHolder.imgNote.setImageBitmap(modelNotes.get(i).getBitmap());
+        }
+
+
+        final android.os.Handler handler = new android.os.Handler() {
+            @Override
+            public void handleMessage(Message msg) {
+
+                final Bitmap image = (Bitmap) msg.obj;
+                noteViewHolder.imgNote.setImageBitmap(image);
+
+            }
+        };
+
+        Thread thread = new Thread(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    modelNotes.get(i).setBitmap(scaleImg(i));
+                    final Message message = handler.obtainMessage(1, modelNotes.get(i).getBitmap());
+                    Log.d("mylog", "BIT: " + modelNotes.get(i).getBitmap());
+                    handler.sendMessage(message);
+                } catch (IOException ex) {
+
+                }
+            }
+        });
+        thread.start();
+    }
 
     public Bitmap scaleImg(int position) throws IOException {
         InputStream inputStream;
