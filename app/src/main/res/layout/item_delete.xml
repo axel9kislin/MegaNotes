@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:clickable="true"
+              android:focusable="true"
+              android:background="?android:attr/selectableItemBackground">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imgNoteDel"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="123456"
+                android:id="@+id/nameNoteDel"
+                android:layout_alignParentTop="true"
+                android:textSize="30sp"
+                android:layout_toRightOf="@+id/imgNoteDel"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="009876"
+                android:id="@+id/lastUpdateNoteDel"
+                android:layout_toRightOf="@+id/imgNoteDel"
+                android:layout_below="@+id/nameNoteDel"/>
+        <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New CheckBox"
+                android:id="@+id/checkBox" android:layout_centerVertical="true" android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:visibility="invisible"/>
+    </RelativeLayout>
+</LinearLayout>

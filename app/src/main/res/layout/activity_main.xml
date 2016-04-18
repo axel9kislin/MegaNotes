@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize">
+
+        <Spinner
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/spinner"
+                android:visibility="invisible"
+                style="@style/MaterialDrawerTheme"/>
+
+        <Button
+                android:text="@string/drawer_item_all"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:textSize="20sp"
+                android:textColor="#FFFFFF"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:id="@+id/buttonAll"
+                android:background="@drawable/round_button"
+                android:visibility="invisible"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/content_frame">
+
+    </FrameLayout>
+
+</LinearLayout>
+

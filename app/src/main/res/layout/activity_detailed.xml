@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_detailed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"/>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/imageNote"
+                    android:layout_centerHorizontal="true"
+                    android:src="@drawable/header"
+                    android:adjustViewBounds="true"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editTitle"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/imageNote"
+                    android:padding="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:hint="@string/title_note"/>
+            <EditText
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/editContent"
+                    android:layout_alignParentLeft="true"
+                    android:layout_below="@+id/editTitle"
+                    android:padding="16dp"
+                    android:layout_marginLeft="16dp"
+                    android:hint="@string/note"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/editContent"
+                    android:padding="16dp"/>
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

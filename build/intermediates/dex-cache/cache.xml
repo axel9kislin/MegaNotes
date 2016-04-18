@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Android\MegaNotes\app\build\intermediates\exploded-aar\com.bignerdranch.android\recyclerview-multiselect\0.2\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8a90606ee73178bb9b1a336dc36ae3ec25ad33ea">
+        <dex dex="D:\Android\MegaNotes\app\build\intermediates\pre-dexed\debug\classes-168925e90c77e7156c06d1b752a4a8dc70187e24.jar" />
+    </item>
+    <item
+        jar="D:\Android\MegaNotes\app\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="ed88e1f0c8fbf66e1da918545f0a6790f893bceb">
+        <dex dex="D:\Android\MegaNotes\app\build\intermediates\pre-dexed\debug\classes-9f832688ae7a1a22fd239554ce22fa9ebf916560.jar" />
+    </item>
+    <item
+        jar="D:\Android\MegaNotes\app\build\intermediates\exploded-aar\com.mikepenz\materialdrawer\5.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4e321f93dc9379e01485b0811f46c23c3572596d">
+        <dex dex="D:\Android\MegaNotes\app\build\intermediates\pre-dexed\debug\classes-7644480c27499ed70ceff0a98074df2a2e63ee3e.jar" />
+    </item>
+    <item
+        jar="D:\Android\MegaNotes\app\build\intermediates\exploded-aar\com.mikepenz\iconics-core\2.5.11\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="98a135c7935e62ac041acc1fcb148973bde828d5">
+        <dex dex="D:\Android\MegaNotes\app\build\intermediates\pre-dexed\debug\classes-7358caa058cb7a70014c58f2d0882e335d99f2bb.jar" />
+    </item>
+    <item
+        jar="D:\Android\MegaNotes\app\build\intermediates\exploded-aar\com.android.support\design\23.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f0001e71cea6ae432a00021c6f727f5ef0f3d27e">
+        <dex dex="D:\Android\MegaNotes\app\build\intermediates\pre-dexed\debug\classes-685ec4d310b7adc3828fae351eb8fa3c68d812df.jar" />
+    </item>
+    <item
+        jar="D:\Android\MegaNotes\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\libs\internal_impl-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e57fba0a2d57d3501d8f4ff44c23092978804845">
+        <dex dex="D:\Android\MegaNotes\app\build\intermediates\pre-dexed\debug\internal_impl-24.0.0-alpha1-3d6632c81145cf9439f83978ada73a2096d6e364.jar" />
+    </item>
+    <item
+        jar="D:\Android\MegaNotes\app\build\intermediates\exploded-aar\com.mikepenz\google-material-typeface\2.2.0.1.original\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="53e176889382956e3910232309ab7056730553e8">
+        <dex dex="D:\Android\MegaNotes\app\build\intermediates\pre-dexed\debug\classes-092344ece736bc01e03248223c7b120989028f56.jar" />
+    </item>
+    <item
+        jar="C:\Users\Артем\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\Android\MegaNotes\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-6dfe9e199e7149518a1e5f7f43c0a6cbdb63b3c7.jar" />
+    </item>
+    <item
+        jar="D:\Android SDK\extras\android\m2repository\com\android\support\support-annotations\24.0.0-alpha1\support-annotations-24.0.0-alpha1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b8062546971a3d196343232a19a3c0016272ba47">
+        <dex dex="D:\Android\MegaNotes\app\build\intermediates\pre-dexed\debug\support-annotations-24.0.0-alpha1-63dfc9acc24c4c122f82ab80c80ba22eeedf05f7.jar" />
+    </item>
+    <item
+        jar="D:\Android\MegaNotes\app\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a6af5beedc2e8c946abc3771525e2fed77439309">
+        <dex dex="D:\Android\MegaNotes\app\build\intermediates\pre-dexed\debug\classes-594c7cb77654115a242abe60c5885984f796cfda.jar" />
+    </item>
+    <item
+        jar="D:\Android\MegaNotes\app\build\intermediates\exploded-aar\com.mikepenz\fastadapter\1.4.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4c5bfb989e99b9308bcbe7ad2dfd56fa81e63440">
+        <dex dex="D:\Android\MegaNotes\app\build\intermediates\pre-dexed\debug\classes-4ae9995e8e26e5529b0732013a6a497665111ca4.jar" />
+    </item>
+    <item
+        jar="D:\Android\MegaNotes\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1f1c7067e22acf05bddbca9f94422050cd848a86">
+        <dex dex="D:\Android\MegaNotes\app\build\intermediates\pre-dexed\debug\classes-9ce37b1a7525e5af4b43ec67cdfecfa564d8aaa9.jar" />
+    </item>
+    <item
+        jar="D:\Android\MegaNotes\app\build\intermediates\exploded-aar\com.mikepenz\materialize\0.8.8\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="197c431b8fc427f77e02997e299bd6b9bef58ede">
+        <dex dex="D:\Android\MegaNotes\app\build\intermediates\pre-dexed\debug\classes-c158b42763a8a75e12939ff4df058dec91e35588.jar" />
+    </item>
+    <item
+        jar="D:\Android\MegaNotes\app\build\intermediates\exploded-aar\com.android.support\cardview-v7\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5305936738497fe4a5d89fc4f13015931c0fd402">
+        <dex dex="D:\Android\MegaNotes\app\build\intermediates\pre-dexed\debug\classes-63597bd6715eda370765ab664b6e46a48d7a3533.jar" />
+    </item>
+    <item
+        jar="D:\Android\MegaNotes\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9684c95278dc45a142d7de3db9e7e39aa520e1e0">
+        <dex dex="D:\Android\MegaNotes\app\build\intermediates\pre-dexed\debug\classes-37334a2fbe85ebec8f1dbc1bccfdc03f0773a2b7.jar" />
+    </item>
+    <item
+        jar="D:\Android\MegaNotes\app\build\intermediates\exploded-aar\com.android.support\support-v4\24.0.0-alpha1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="9aaaea3a89040f8176f810c85e288fc74d5d1f12">
+        <dex dex="D:\Android\MegaNotes\app\build\intermediates\pre-dexed\debug\classes-697b388e72015b6daa72c44cf398a83573072ad0.jar" />
+    </item>
+
+</items>
