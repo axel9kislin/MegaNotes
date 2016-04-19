@@ -19,6 +19,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
 import android.widget.*;
 import com.mikepenz.google_material_typeface_library.GoogleMaterial;
 import ru.Artem.meganotes.app.Adapters.FragmentDialogAdapter;
@@ -83,10 +84,13 @@ public class MyDialogFragment extends android.support.v4.app.DialogFragment impl
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        getDialog().setTitle(getString(R.string.add_image));
+
         myView = inflater.inflate(R.layout.fragment_dialog, container, false);
         listView = (ListView) myView.findViewById(R.id.listApp);
-
+        if (myKey.equals("camera/gallery"))
+            getDialog().setTitle(getString(R.string.add_image));
+        else
+            getDialog().getWindow().requestFeature(Window.FEATURE_NO_TITLE);
         listView.setAdapter(fragmentDialogAdapter);
         listView.setOnItemClickListener(this);
         return myView;
@@ -94,7 +98,7 @@ public class MyDialogFragment extends android.support.v4.app.DialogFragment impl
 
     private List<ModelTypeApp> initData() {
         listApp = new ArrayList<ModelTypeApp>();
-        if (myKey.equals("del/edit")) {
+        if (myKey.equals("del")) {
             listApp.add(new ModelTypeApp(getString(R.string.item_del), GoogleMaterial.Icon.gmd_delete));
         }
         else {
