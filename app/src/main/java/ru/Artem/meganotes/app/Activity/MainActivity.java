@@ -239,7 +239,7 @@ public class MainActivity extends AppCompatActivity implements
     @Override
     public void showDialog(MyDialogFragment myDialogFragment) {
         Bundle args = new Bundle();
-        args.putString("dialogKey", "del/edit");
+        args.putString("dialogKey", "del");
         myDialogFragment.setArguments(args);
         myDialogFragment.show(getSupportFragmentManager(), "dialog");
     }
